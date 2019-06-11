@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.nexacro.xsb.msh:MshRootModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.nexacro.xsb.msh="http:///com/nexacro/xsb/model.ecore">
+  <mshChildOverviews author="" description="" outputPath="">
+    <deploys deployPath="http://localhost:8080/xup;/FrontControllerServlet.do;/DeploymentServiceServlet.do;/ServiceInfoServiceServlet.do;/ManageServiceServlet.do" used="true"/>
+  </mshChildOverviews>
+  <mshChildProperties/>
+  <mshChildDatasources/>
+  <mshChildModels/>
+  <mshChildModelGroups/>
+</com.nexacro.xsb.msh:MshRootModel>
