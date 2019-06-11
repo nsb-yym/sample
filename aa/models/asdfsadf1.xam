@@ -1,0 +1,339 @@
+<RootXaModel id="e063c0f5-9e49-4c8a-93a9-e123f72f3fb6" name="asdfsadf1" alias="asdfsadf1" selected="false" hide="false" askValue="_unknown" showAlias="false" version="1.5.0" logicClassName="asdfsadf1AutomationLogic" charset="UTF-8" usedCache="false" cachePolicy="" sgType="10" viewType="all" allRefDatasources="" allRefModels="" ifversion="-1264531328">
+  <constraint height="-1" width="-1" x="100" y="100"/>
+  <sourceConnectionList/>
+  <targetConnectionList/>
+  <description></description>
+  <required>false</required>
+  <showErrorMark>false</showErrorMark>
+  <showBreakPoint>false</showBreakPoint>
+  <showWarnMark>false</showWarnMark>
+  <key></key>
+  <epsClassType></epsClassType>
+  <children>
+    <XaStart id="a6016c92-640f-4cc3-9fc1-c002ddd9acf4" name="start" alias="Start" selected="false" hide="false" askValue="_unknown" showAlias="false">
+      <constraint height="-1" width="-1" x="250" y="50"/>
+      <sourceConnectionList>
+        <XaConnection id="7662d542-7d0f-4c2b-88db-0b793e30ee92" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="name_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+          <constraint height="-1" width="-1" x="25" y="100"/>
+          <sourceConnectionList/>
+          <targetConnectionList/>
+          <description></description>
+          <required>true</required>
+          <showErrorMark>false</showErrorMark>
+          <showBreakPoint>false</showBreakPoint>
+          <showWarnMark>false</showWarnMark>
+          <key></key>
+          <epsClassType></epsClassType>
+          <source class="XaStart" reference="../../.."/>
+          <target class="XaAliasLabel" id="5d1712ce-7608-4859-9dfe-e5a641405574" name="start" alias="Start" selected="false" hide="false" askValue="_unknown" showAlias="false">
+            <constraint height="-1" width="-1" x="300" y="30"/>
+            <sourceConnectionList/>
+            <targetConnectionList>
+              <XaConnection reference="../../.."/>
+            </targetConnectionList>
+            <description></description>
+            <required>false</required>
+            <showErrorMark>false</showErrorMark>
+            <showBreakPoint>false</showBreakPoint>
+            <showWarnMark>false</showWarnMark>
+            <key></key>
+            <epsClassType></epsClassType>
+            <editPartSelected>false</editPartSelected>
+          </target>
+          <bendpoints/>
+          <isKeepReference>false</isKeepReference>
+        </XaConnection>
+        <XaConnection id="698b241b-55fe-4b4e-b2ea-821fdca4dc3c" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="link_child_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+          <constraint height="-1" width="-1" x="25" y="100"/>
+          <sourceConnectionList/>
+          <targetConnectionList/>
+          <description></description>
+          <required>true</required>
+          <showErrorMark>false</showErrorMark>
+          <showBreakPoint>false</showBreakPoint>
+          <showWarnMark>false</showWarnMark>
+          <key></key>
+          <epsClassType></epsClassType>
+          <source class="XaStart" reference="../../.."/>
+          <target class="XaEnd" id="60247a02-b9b0-455e-ba85-1fd72ca0295c" name="end" alias="End" selected="false" hide="false" askValue="_unknown" showAlias="false">
+            <constraint height="-1" width="-1" x="233" y="389"/>
+            <sourceConnectionList>
+              <XaConnection id="bffd9795-2d13-415d-ac7d-920c9a57a642" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="name_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                <constraint height="-1" width="-1" x="25" y="100"/>
+                <sourceConnectionList/>
+                <targetConnectionList/>
+                <description></description>
+                <required>true</required>
+                <showErrorMark>false</showErrorMark>
+                <showBreakPoint>false</showBreakPoint>
+                <showWarnMark>false</showWarnMark>
+                <key></key>
+                <epsClassType></epsClassType>
+                <source class="XaEnd" reference="../../.."/>
+                <target class="XaAliasLabel" id="ceb7426c-b822-4693-bc5f-81b085c4f47d" name="end" alias="End" selected="false" hide="false" askValue="_unknown" showAlias="false">
+                  <constraint height="-1" width="-1" x="283" y="369"/>
+                  <sourceConnectionList/>
+                  <targetConnectionList>
+                    <XaConnection reference="../../.."/>
+                  </targetConnectionList>
+                  <description></description>
+                  <required>false</required>
+                  <showErrorMark>false</showErrorMark>
+                  <showBreakPoint>false</showBreakPoint>
+                  <showWarnMark>false</showWarnMark>
+                  <key></key>
+                  <epsClassType></epsClassType>
+                  <editPartSelected>false</editPartSelected>
+                </target>
+                <bendpoints/>
+                <isKeepReference>false</isKeepReference>
+              </XaConnection>
+            </sourceConnectionList>
+            <targetConnectionList>
+              <XaConnection reference="../../.."/>
+              <XaConnection id="235d1917-d082-49fd-a2db-001e271ba06e" name="connection" alias="connection" selected="false" hide="false" askValue="_unknown" showAlias="false" connType="process_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                <constraint height="-1" width="-1" x="25" y="100"/>
+                <sourceConnectionList/>
+                <targetConnectionList/>
+                <description></description>
+                <required>false</required>
+                <showErrorMark>false</showErrorMark>
+                <showBreakPoint>false</showBreakPoint>
+                <showWarnMark>false</showWarnMark>
+                <key></key>
+                <epsClassType></epsClassType>
+                <source class="XaInvokeWebService" id="3d711feb-b8c5-4d65-b1fc-099739c1e58e" name="webservice" alias="WebService Invoke" selected="false" hide="false" askValue="_unknown" showAlias="false" domainName="" datasourceName="" invokedModelName="" invokedModelId="" invokedModelIfversion="0">
+                  <constraint height="-1" width="-1" x="352" y="310"/>
+                  <sourceConnectionList>
+                    <XaConnection id="cfd929c6-779b-4826-88b7-b64fe10cf0f4" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="name_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                      <constraint height="-1" width="-1" x="25" y="100"/>
+                      <sourceConnectionList/>
+                      <targetConnectionList/>
+                      <description></description>
+                      <required>true</required>
+                      <showErrorMark>false</showErrorMark>
+                      <showBreakPoint>false</showBreakPoint>
+                      <showWarnMark>false</showWarnMark>
+                      <key></key>
+                      <epsClassType></epsClassType>
+                      <source class="XaInvokeWebService" reference="../../.."/>
+                      <target class="XaAliasLabel" id="f88756d6-71bb-45bd-8905-7dd902c7fbdd" name="webservice" alias="WebService Invoke" selected="false" hide="false" askValue="_unknown" showAlias="false">
+                        <constraint height="-1" width="-1" x="402" y="290"/>
+                        <sourceConnectionList/>
+                        <targetConnectionList>
+                          <XaConnection reference="../../.."/>
+                        </targetConnectionList>
+                        <description></description>
+                        <required>false</required>
+                        <showErrorMark>false</showErrorMark>
+                        <showBreakPoint>false</showBreakPoint>
+                        <showWarnMark>false</showWarnMark>
+                        <key></key>
+                        <epsClassType></epsClassType>
+                        <editPartSelected>false</editPartSelected>
+                      </target>
+                      <bendpoints/>
+                      <isKeepReference>false</isKeepReference>
+                    </XaConnection>
+                    <XaConnection reference="../../.."/>
+                  </sourceConnectionList>
+                  <targetConnectionList>
+                    <XaConnection id="4e5d639f-ba1e-4c98-a60a-eebb4b8b1f96" name="connection" alias="connection" selected="false" hide="false" askValue="_unknown" showAlias="false" connType="process_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                      <constraint height="-1" width="-1" x="25" y="100"/>
+                      <sourceConnectionList/>
+                      <targetConnectionList/>
+                      <description></description>
+                      <required>false</required>
+                      <showErrorMark>false</showErrorMark>
+                      <showBreakPoint>false</showBreakPoint>
+                      <showWarnMark>false</showWarnMark>
+                      <key></key>
+                      <epsClassType></epsClassType>
+                      <source class="XaInvokeModify" id="38821c50-4e89-4662-9464-9b7d2b204d8f" name="modify" alias="Modify Invoke" selected="false" hide="false" askValue="_unknown" showAlias="false" domainName="" datasourceName="" invokedModelName="" invokedModelId="" invokedModelIfversion="0" loopDataSetName="">
+                        <constraint height="-1" width="-1" x="259" y="165"/>
+                        <sourceConnectionList>
+                          <XaConnection id="9c014c8a-a40f-463b-9784-5ce55529da7d" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="name_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                            <constraint height="-1" width="-1" x="25" y="100"/>
+                            <sourceConnectionList/>
+                            <targetConnectionList/>
+                            <description></description>
+                            <required>true</required>
+                            <showErrorMark>false</showErrorMark>
+                            <showBreakPoint>false</showBreakPoint>
+                            <showWarnMark>false</showWarnMark>
+                            <key></key>
+                            <epsClassType></epsClassType>
+                            <source class="XaInvokeModify" reference="../../.."/>
+                            <target class="XaAliasLabel" id="d90f2a93-6342-4648-b273-515403acfff8" name="modify" alias="Modify Invoke" selected="false" hide="false" askValue="_unknown" showAlias="false">
+                              <constraint height="-1" width="-1" x="309" y="145"/>
+                              <sourceConnectionList/>
+                              <targetConnectionList>
+                                <XaConnection reference="../../.."/>
+                              </targetConnectionList>
+                              <description></description>
+                              <required>false</required>
+                              <showErrorMark>false</showErrorMark>
+                              <showBreakPoint>false</showBreakPoint>
+                              <showWarnMark>false</showWarnMark>
+                              <key></key>
+                              <epsClassType></epsClassType>
+                              <editPartSelected>false</editPartSelected>
+                            </target>
+                            <bendpoints/>
+                            <isKeepReference>false</isKeepReference>
+                          </XaConnection>
+                          <XaConnection reference="../../.."/>
+                        </sourceConnectionList>
+                        <targetConnectionList>
+                          <XaConnection id="9439a317-4674-40a2-bd3a-56a7edae0ba8" name="connection" alias="connection" selected="false" hide="false" askValue="_unknown" showAlias="false" connType="process_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
+                            <constraint height="-1" width="-1" x="25" y="100"/>
+                            <sourceConnectionList/>
+                            <targetConnectionList/>
+                            <description></description>
+                            <required>false</required>
+                            <showErrorMark>false</showErrorMark>
+                            <showBreakPoint>false</showBreakPoint>
+                            <showWarnMark>false</showWarnMark>
+                            <key></key>
+                            <epsClassType></epsClassType>
+                            <source class="XaStart" reference="../../../../../../../../../../../.."/>
+                            <target class="XaInvokeModify" reference="../../.."/>
+                            <bendpoints/>
+                            <isKeepReference>false</isKeepReference>
+                          </XaConnection>
+                        </targetConnectionList>
+                        <description></description>
+                        <required>false</required>
+                        <showErrorMark>false</showErrorMark>
+                        <showBreakPoint>false</showBreakPoint>
+                        <showWarnMark>false</showWarnMark>
+                        <key></key>
+                        <epsClassType></epsClassType>
+                        <needUniqueName>true</needUniqueName>
+                        <rawInputDataList/>
+                        <rawOutputDataList/>
+                        <warningCount>0</warningCount>
+                        <ehOnBegin></ehOnBegin>
+                        <ehOnEnd></ehOnEnd>
+                        <ehOnExceptionOccured>throw new AutomationFailException(e.getMessage(), e);</ehOnExceptionOccured>
+                        <ehOnBeforeDataSource></ehOnBeforeDataSource>
+                        <ehOnAfterDataSource></ehOnAfterDataSource>
+                        <isErrorInOnBeingCode>false</isErrorInOnBeingCode>
+                        <isErrorInOnEndCode>false</isErrorInOnEndCode>
+                        <isErrorInExceptionCode>false</isErrorInExceptionCode>
+                        <invokedModelDesc></invokedModelDesc>
+                        <invokedXupTargetDomainName></invokedXupTargetDomainName>
+                        <invokedXupTargetModelName></invokedXupTargetModelName>
+                        <isUseFirstRow>false</isUseFirstRow>
+                        <firstRowParameterList/>
+                        <isEnableAutoCommit>false</isEnableAutoCommit>
+                        <sqlInsert></sqlInsert>
+                        <sqlUpdate></sqlUpdate>
+                        <sqlDelete></sqlDelete>
+                        <filterList/>
+                        <defaultValueList/>
+                        <ehGetInsertPatchValue>
+return patchValue;</ehGetInsertPatchValue>
+                        <ehGetUpdatePatchValue>
+return patchValue;</ehGetUpdatePatchValue>
+                        <ehGetDeletePatchValue>
+return patchValue;</ehGetDeletePatchValue>
+                        <ehIsFilterSatisfied>
+return false;</ehIsFilterSatisfied>
+                        <isErrorInGetInsertPatchValue>false</isErrorInGetInsertPatchValue>
+                        <isErrorInGetUpdatePatchValue>false</isErrorInGetUpdatePatchValue>
+                        <isErrorInGetDeletePatchValue>false</isErrorInGetDeletePatchValue>
+                        <isErrorInIsFilterSatisfied>false</isErrorInIsFilterSatisfied>
+                        <isSurroundCDATAForInsertSql>false</isSurroundCDATAForInsertSql>
+                        <isSurroundCDATAForUpdateSql>false</isSurroundCDATAForUpdateSql>
+                        <isSurroundCDATAForDeleteSql>false</isSurroundCDATAForDeleteSql>
+                        <isUseDefaultSqlTypeValue>true</isUseDefaultSqlTypeValue>
+                        <sqlTypeValueForNormal>insert</sqlTypeValueForNormal>
+                        <sqlTypeValueForInsert>insert</sqlTypeValueForInsert>
+                        <sqlTypeValueForUpdate>update</sqlTypeValueForUpdate>
+                        <sqlTypeValueForDelete>delete</sqlTypeValueForDelete>
+                        <isUseNormalSqlTypeValue>true</isUseNormalSqlTypeValue>
+                        <isUseInsertSqlTypeValue>true</isUseInsertSqlTypeValue>
+                        <isUseUpdateSqlTypeValue>true</isUseUpdateSqlTypeValue>
+                        <isUseDeleteSqlTypeValue>true</isUseDeleteSqlTypeValue>
+                      </source>
+                      <target class="XaInvokeWebService" reference="../../.."/>
+                      <bendpoints/>
+                      <isKeepReference>false</isKeepReference>
+                    </XaConnection>
+                  </targetConnectionList>
+                  <description></description>
+                  <required>false</required>
+                  <showErrorMark>false</showErrorMark>
+                  <showBreakPoint>false</showBreakPoint>
+                  <showWarnMark>false</showWarnMark>
+                  <key></key>
+                  <epsClassType></epsClassType>
+                  <needUniqueName>true</needUniqueName>
+                  <rawInputDataList/>
+                  <rawOutputDataList/>
+                  <warningCount>0</warningCount>
+                  <ehOnBegin></ehOnBegin>
+                  <ehOnEnd></ehOnEnd>
+                  <ehOnExceptionOccured>throw new AutomationFailException(e.getMessage(), e);</ehOnExceptionOccured>
+                  <ehOnBeforeDataSource></ehOnBeforeDataSource>
+                  <ehOnAfterDataSource></ehOnAfterDataSource>
+                  <isErrorInOnBeingCode>false</isErrorInOnBeingCode>
+                  <isErrorInOnEndCode>false</isErrorInOnEndCode>
+                  <isErrorInExceptionCode>false</isErrorInExceptionCode>
+                  <invokedModelDesc></invokedModelDesc>
+                  <invokedXupTargetDomainName></invokedXupTargetDomainName>
+                  <invokedXupTargetModelName></invokedXupTargetModelName>
+                  <isUseFirstRow>false</isUseFirstRow>
+                  <firstRowParameterList/>
+                  <isEnableAutoCommit>false</isEnableAutoCommit>
+                </source>
+                <target class="XaEnd" reference="../../.."/>
+                <bendpoints/>
+                <isKeepReference>false</isKeepReference>
+              </XaConnection>
+            </targetConnectionList>
+            <description></description>
+            <required>false</required>
+            <showErrorMark>false</showErrorMark>
+            <showBreakPoint>false</showBreakPoint>
+            <showWarnMark>false</showWarnMark>
+            <key></key>
+            <epsClassType></epsClassType>
+            <needUniqueName>true</needUniqueName>
+            <rawInputDataList/>
+            <rawOutputDataList/>
+            <warningCount>0</warningCount>
+            <methodCode></methodCode>
+          </target>
+          <bendpoints/>
+          <isKeepReference>false</isKeepReference>
+        </XaConnection>
+        <XaConnection reference="../XaConnection[2]/target/targetConnectionList/XaConnection[2]/source/targetConnectionList/XaConnection/source/targetConnectionList/XaConnection"/>
+      </sourceConnectionList>
+      <targetConnectionList/>
+      <description></description>
+      <required>false</required>
+      <showErrorMark>false</showErrorMark>
+      <showBreakPoint>false</showBreakPoint>
+      <showWarnMark>false</showWarnMark>
+      <key></key>
+      <epsClassType></epsClassType>
+      <needUniqueName>true</needUniqueName>
+      <rawInputDataList/>
+      <rawOutputDataList/>
+      <warningCount>0</warningCount>
+      <methodCode></methodCode>
+    </XaStart>
+    <XaAliasLabel reference="../XaStart/sourceConnectionList/XaConnection/target"/>
+    <XaEnd reference="../XaStart/sourceConnectionList/XaConnection[2]/target"/>
+    <XaAliasLabel reference="../XaStart/sourceConnectionList/XaConnection[2]/target/sourceConnectionList/XaConnection/target"/>
+    <XaInvokeModify reference="../XaStart/sourceConnectionList/XaConnection[2]/target/targetConnectionList/XaConnection[2]/source/targetConnectionList/XaConnection/source"/>
+    <XaAliasLabel reference="../XaStart/sourceConnectionList/XaConnection[2]/target/targetConnectionList/XaConnection[2]/source/targetConnectionList/XaConnection/source/sourceConnectionList/XaConnection/target"/>
+    <XaInvokeWebService reference="../XaStart/sourceConnectionList/XaConnection[2]/target/targetConnectionList/XaConnection[2]/source"/>
+    <XaAliasLabel reference="../XaStart/sourceConnectionList/XaConnection[2]/target/targetConnectionList/XaConnection[2]/source/sourceConnectionList/XaConnection/target"/>
+  </children>
+  <importUserCode></importUserCode>
+  <freeUserCode></freeUserCode>
+  <async>false</async>
+</RootXaModel>
