@@ -56,7 +56,7 @@
           <epsClassType></epsClassType>
           <source class="XaStart" reference="../../.."/>
           <target class="XaEnd" id="cdfc993a-5444-414a-ab9d-520c486917dc" name="end" alias="End" selected="false" hide="false" askValue="_unknown" showAlias="false">
-            <constraint height="-1" width="-1" x="250" y="250"/>
+            <constraint height="-1" width="-1" x="270" y="335"/>
             <sourceConnectionList>
               <XaConnection id="2b4c2b63-b803-4491-a026-4b574f4d84c8" name="connection" alias="connection" selected="false" hide="true" askValue="_unknown" showAlias="false" connType="name_connection" routingType="_manhattanConnRouter" rawName="" showRawName="false">
                 <constraint height="-1" width="-1" x="25" y="100"/>
@@ -71,7 +71,7 @@
                 <epsClassType></epsClassType>
                 <source class="XaEnd" reference="../../.."/>
                 <target class="XaAliasLabel" id="9cc69a4b-aae0-4a3d-ba00-92d5f539526f" name="end" alias="End" selected="false" hide="false" askValue="_unknown" showAlias="false">
-                  <constraint height="-1" width="-1" x="300" y="230"/>
+                  <constraint height="-1" width="-1" x="320" y="315"/>
                   <sourceConnectionList/>
                   <targetConnectionList>
                     <XaConnection reference="../../.."/>
