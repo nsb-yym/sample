@@ -4,7 +4,12 @@
     <deploys deployPath="http://localhost:8080/xup;/FrontControllerServlet.do;/DeploymentServiceServlet.do;/ServiceInfoServiceServlet.do;/ManageServiceServlet.do" used="true"/>
   </mshChildOverviews>
   <mshChildProperties/>
-  <mshChildDatasources/>
+  <mshChildDatasources>
+    <mshItemDataSourceList mshKey="aaaaa" mshValue="&lt;db name=&quot;aaaaa&quot; xmlns=&quot;http://www.nexacro.com/mashup&quot; version=&quot;2.2&quot;>&#xA;  &lt;description>aa&lt;/description>&#xA;  &lt;dbms>Oracle10G&lt;/dbms>&#xA;  &lt;driver>oracle.jdbc.driver.OracleDriver&lt;/driver>&#xA;  &lt;connectionUrl> jdbc:oracle:thin:@127.0.0.1:1521:Orcl&lt;/connectionUrl>&#xA;  &lt;id>1&lt;/id>&#xA;  &lt;password>1&lt;/password>&#xA;  &lt;database>1&lt;/database>&#xA;  &lt;charset>UTF-8&lt;/charset>&#xA;  &lt;timeout>10000&lt;/timeout>&#xA;  &lt;maxActive>1&lt;/maxActive>&#xA;  &lt;maxIdle>1&lt;/maxIdle>&#xA;  &lt;maxWait>1&lt;/maxWait>&#xA;&lt;/db>" mshDesc="aa"/>
+  </mshChildDatasources>
   <mshChildModels/>
   <mshChildModelGroups/>
+  <mshChildUserClasses/>
+  <mshChildUserLibraries/>
+  <mshChildUserFiles/>
 </com.nexacro.xsb.msh:MshRootModel>
